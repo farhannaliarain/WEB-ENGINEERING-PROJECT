@@ -1,0 +1,81 @@
+*{
+    box-sizing: border-box;
+    font-family: "Poppins",sans-serif;
+
+
+}
+html,body{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    width: 100%;
+    background-color: rgba(128, 123, 123, 0.945);
+}
+.head{
+    text-align: center;
+    width: 20%;
+    margin: auto;
+
+}
+.head .head-cont{
+display: grid;
+grid-template-columns: 1fr 1fr;
+}
+.head a{
+    color: white;
+    text-decoration: none;
+}
+.container{
+    margin:30px 0;
+    width: 100%;
+    background-color: rgb(238, 240, 236);
+}
+.donateAmount{
+    width: 40%;
+    position: relative;
+    margin: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    left: 25%;
+    font-size: 1.3em;
+}
+
+.container input{
+    margin: 10px;
+    padding: 20px;
+    box-shadow: 1px 1px 3px 1px rgb(185, 179, 179);
+    border-radius: 5px;
+}
+.form-container{
+    background-color: rgb(246, 241, 250);
+}
+.form-container #myform{
+    margin: 20px;
+    width: 30%;
+}
+.form-container input {
+    width: 100%;
+    padding: 10px;
+    border: no;
+}
+
+.payment{
+    margin: 20px;
+}
+.payment select,.payment p{
+    position: relative;
+    font-size: 1.2em;
+    font-weight: bold;
+    left: 40%;
+    padding: 20px;
+}
+button{
+    position: relative;
+    left: 35%;
+    padding: 10px;
+    width: 25%;
+    background-color: yellow;
+    color: black;
+    font-weight: bolder;
+}
