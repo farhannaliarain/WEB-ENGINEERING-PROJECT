@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Changa+One:ital@0;1&family=Open+Sans:ital,wght@0,300;0,700;0,800;1,700&family=Poppins:ital,wght@0,100;0,300;1,100;1,200&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="../Css/DonateForm.css">
+
+</head>
+
+
+<header class="header">
+    <div class="head">
+        <div class="head-cont">
+            <a href="How it works.html">
+                <img src="../Resource/Images/LOGO/icons8-blood-85.png" alt="funding Logo">
+            </a>
+            <a href="../pages/How it works.html">
+                <h1>CrowdFunding</h1>
+            </a>
+            <a href="../Pages/index.html">
+                <h2>Home</h2>
+            </a>
+        </div>
+    </div>
+</header>
+
+<form action="../Pages/index.html" id="myform">
+    <div class="container">
+        <div class="donateAmount">
+            <div class="money">
+                <input type="text" id="money">
+                <div class="error"></div>
+                <p>Amount of Money In PK Rupees</p>
+            </div>
+            <div class="check">
+                <p>Choose your own amount 50RS. or more</p>
+            </div>
+        </div>
+    </div>
+
+    <h2>Personal Details</h2>
+    <div class="form-container">
+        <div class="first">
+            <label>First Name</label>
+            <input type="text" id="firstName"><br>
+            <div class="error"></div>
+        </div>
+        <div class="last">
+            <label>Last Name</label>
+            <input type="text" id="lastName"><br>
+            <div class="error"></div>
+        </div>
+
+        <div class="street">
+            <label>Street</label>
+            <input type="text" id="street"><br>
+            <div class="error"></div>
+        </div>
+        <div class="z-p">
+            <label>Zip Code</label>
+            <input type="text" id="zip"><br>
+            <div class="error"></div>
+        </div>
+        <div class="E-M">
+            <label name="email">Email</label>
+            <input type="email" id="email">
+            <div class="error"></div>
+        </div>
+        <div class="E-M">
+            <label>Account Number</label>
+            <input type="text" id="AC">
+            <div class="error"></div>
+        </div>
+    </div>
+    <h2>Payment Details</h2>
+
+    <div class="payment">
+        <p>Mobile Banking</p>
+        <select name="choose" id="BankM">
+            <option value="Mobile Banking" disabled></option>
+            <option value="CBE">Bank account</option>Bank</option>
+            <option value="AWASH Wallet">EasyPaisa</option>
+            <option value="M-Birr">JazzCash</option>
+        </select>
+
+    </div>
+    <button id="submit">Submit</button>
+</form>
+<script src="../Js/DonateForm.js"></script>
+</body>
+
+</html>
